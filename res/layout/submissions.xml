@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    >
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Go Back"
+        android:textColor="#ff0000"
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/menu" />
+
+    <ImageView
+        android:id="@+id/ivSubmissions"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/rearChoke"
+        android:layout_below="@+id/btnGoBack"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Submissions"
+        android:layout_marginTop="30dp"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        />
+
+    <ListView
+        android:id="@+id/lvSubmissions"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:layout_below="@+id/ivSubmissions"
+        android:layout_marginTop="48dp"
+        android:divider="#ff0000"
+        android:entries="@string/submissions"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000"
+
+    >
+
+    <Button
+        android:id="@+id/btnSubmissions"
+        android:layout_width="120dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/ivMainPicture"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="143dp"
+        android:text="SUBMISSIONS"
+        android:textColor="#ff0000"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/btnPositions"
+        android:layout_width="120dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/ivMainPicture"
+        android:layout_marginTop="143dp"
+        android:layout_toRightOf="@+id/btnSubmissions"
+        android:layout_marginLeft="30dp"
+        android:text="Positions"
+        android:textColor="#ff0000"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/btnMovements"
+        android:layout_width="120dp"
+        android:layout_height="96dp"
+        android:layout_toLeftOf="@+id/btnPositions"
+        android:layout_below="@id/btnSubmissions"
+        android:layout_marginTop="40dp"
+        android:text="Movements"
+        android:textColor="#ff0000"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/btnLocations"
+        android:layout_width="120dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/btnPositions"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/btnSubmissions"
+        android:text="BJJ Dojos"
+        android:textColor="#ff0000"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="BJJ Facts"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ff0000"
+        android:background="@drawable/custom_button"
+        />
+
+    <ImageView
+        android:id="@+id/ivMainPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/mainpicture"
+        android:layout_marginTop="70dp"
+        />
+
+</RelativeLayout>

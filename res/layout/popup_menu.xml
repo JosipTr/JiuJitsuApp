@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/btnMenuSubmissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submissions"
+        android:title="One"/>
+
+    <Button
+        android:id="@+id/btnMenuMovements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movements"
+        android:title="Two"/>
+
+    <Button
+        android:id="@+id/btnMenuPositions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Positions"
+        android:title="Three"/>
+
+    <Button
+        android:id="@+id/btnMenuMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:title="Three"/>
+
+    <Button
+        android:id="@+id/btnMenuAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About App"
+        android:title="Three"/>
+
+</LinearLayout>
